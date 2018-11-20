@@ -94,7 +94,7 @@ class Plasma(Layout):
             margin=self.margin,
         )
         # Always keep tiles below floating windows
-        client.window.configure(stackmode=StackMode.Below)
+        #client.window.configure(stackmode=StackMode.Below)
         client.unhide()
 
     def focus(self, client):
